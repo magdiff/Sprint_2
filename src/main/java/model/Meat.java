@@ -1,6 +1,6 @@
 package model;
 
-import static model.constants.Discount.noDiscount;
+import static model.constants.Discount.NO_DISCOUNT;
 
 public class Meat extends Food {
 
@@ -12,6 +12,6 @@ public class Meat extends Food {
 
     @Override
     public double getDiscount() {
-        return noDiscount;
+        return NO_DISCOUNT;
     } // на мясо в данный момент скидки нет
 }
